@@ -1,4 +1,5 @@
 # distutils: language = c++
+# cython: language_level=3
 
 from Rectangle cimport Rectangle
 
@@ -18,6 +19,9 @@ cdef class PyRectangle:
 
     def move(self, dx, dy):
         self.c_rect.move(dx, dy)
+
+    def sumVec(self, sv):
+        return self.c_rect.sumVec(sv)
 
     # Attribute access
     @property

@@ -11,6 +11,7 @@ from distutils.extension import Extension
 from Cython.Distutils import build_ext
 setup(ext_modules=[Extension("rect",
                              sources=["rect.pyx", "Rectangle.pxd"],
-                             language="c++")],
+                             language="c++"),
+                   ],
       cmdclass={'build_ext': build_ext}
       )
