@@ -19,6 +19,9 @@ cdef class PyRectangle:
     def move(self, dx, dy):
         self.c_rect.move(dx, dy)
 
+    def add(self):
+        return self.c_rect.add()
+
     # Attribute access
     @property
     def x0(self):

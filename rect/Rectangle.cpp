@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Rectangle.h"
 
+#include "Square.h"
+
 namespace shapes
 {
 
@@ -23,6 +25,12 @@ Rectangle::~Rectangle() {}
 int Rectangle::getArea()
 {
     return (this->x1 - this->x0) * (this->y1 - this->y0);
+}
+
+int Rectangle::add()
+{
+    Square sq;
+    return (sq.addsides(this->x0, this->x1, this->y0, this->y1));
 }
 
 // Get the size of the rectangle.
