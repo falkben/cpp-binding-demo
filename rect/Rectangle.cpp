@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "Rectangle.h"
 
 #include "Square.h"
@@ -48,5 +49,18 @@ void Rectangle::move(int dx, int dy)
     this->y0 += dy;
     this->x1 += dx;
     this->y1 += dy;
+}
+
+int Rectangle::sumVec(std::vector<int> sv)
+{
+    int tot = 0;
+
+    int svs = sv.size();
+    std::cout << "vector length " << svs << std::endl;
+    for (int ii = 0; ii < svs; ii++)
+    {
+        tot = tot + sv.at(ii);
+    }
+    return tot;
 }
 } // namespace shapes

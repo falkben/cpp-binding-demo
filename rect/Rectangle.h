@@ -1,6 +1,8 @@
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
 
+#include <vector>
+
 #include "Square.h"
 
 namespace shapes
@@ -16,6 +18,7 @@ public:
   void getSize(int *width, int *height);
   void move(int dx, int dy);
   int add();
+  int sumVec(std::vector<int> sv);
 };
 } // namespace shapes
 

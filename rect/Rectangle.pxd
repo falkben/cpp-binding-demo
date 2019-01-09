@@ -1,3 +1,5 @@
+from libcpp.vector cimport vector
+
 # cdef public from "Square.cpp":
 #     pass
 
@@ -16,4 +18,5 @@ cdef extern from "Rectangle.h" namespace "shapes":
         int getArea()
         int add()
         void getSize(int* width, int* height)
+        int sumVec(vector[int])
         void move(int, int)
