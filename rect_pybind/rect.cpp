@@ -4,12 +4,19 @@
 
 namespace py = pybind11;
 
+namespace shapes
+{
+
 PYBIND11_MODULE(rect, m)
 {
     py::class_<Rectangle>(m, "Rectangle")
-    {
-        m.def(py::init<int x0, int y0, int x1, int y1>());
-        m.def(py::init<>());
-        m.def("getArea", &getArea, "gets the area");
-    }
+        .def(py::init<>())
+        .def(py::init<int, int, int, int>())
+        .def("getArea", &Rectangle::getArea, "gets the area")
+        .def("getSize", &Rectangle::getSize, "")
+        .def("move", &Rectangle::move, "")
+        .def("sumVec", &Rectangle::sumVec, "")
+        .def("add", &Rectangle::add, "");
 }
+
+} // namespace shapes
