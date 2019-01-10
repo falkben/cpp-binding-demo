@@ -1,2 +1,3 @@
 # numpy
 Cython>=0.29
+pybind11
