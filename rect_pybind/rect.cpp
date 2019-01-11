@@ -16,7 +16,11 @@ PYBIND11_MODULE(rect, m)
         .def("getSize", &Rectangle::getSize, "")
         .def("move", &Rectangle::move, "")
         .def("sumVec", &Rectangle::sumVec, "")
-        .def("add", &Rectangle::add, "");
+        .def("add", &Rectangle::add, "")
+        .def_readwrite("x0", &Rectangle::x0)
+        .def_readwrite("x1", &Rectangle::x1)
+        .def_readwrite("y0", &Rectangle::y0)
+        .def_readwrite("y1", &Rectangle::y1);
 }
 
 } // namespace shapes

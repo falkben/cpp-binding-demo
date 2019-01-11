@@ -22,6 +22,7 @@ cdef class PyRectangle:
 
     def add(self):
         return self.c_rect.add()
+
     def sumVec(self, sv):
         return self.c_rect.sumVec(sv)
 

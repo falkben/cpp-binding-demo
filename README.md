@@ -36,3 +36,5 @@ To build python module `rect` from `rect.cpp`
 ```sh
 c++ -O3 -Wall -shared -std=c++11 -fPIC `python3 -m pybind11 --includes` rect.cpp -o rect`python3-config --extension-suffix`
 ````
+
+Or using a [`setup.py`](setup_pybind.py)

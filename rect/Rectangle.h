@@ -3,8 +3,6 @@
 
 #include <vector>
 
-#include "Square.h"
-
 namespace shapes
 {
 class Rectangle

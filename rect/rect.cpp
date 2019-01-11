@@ -1581,7 +1581,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_6move(struct __pyx_obj_4rect
  * 
  *     def add(self):             # <<<<<<<<<<<<<<
  *         return self.c_rect.add()
- *     def sumVec(self, sv):
+ * 
  */
 
 /* Python wrapper */
@@ -1607,8 +1607,8 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_8add(struct __pyx_obj_4rect_
  * 
  *     def add(self):
  *         return self.c_rect.add()             # <<<<<<<<<<<<<<
+ * 
  *     def sumVec(self, sv):
- *         return self.c_rect.sumVec(sv)
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.add()); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 24, __pyx_L1_error)
@@ -1622,7 +1622,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_8add(struct __pyx_obj_4rect_
  * 
  *     def add(self):             # <<<<<<<<<<<<<<
  *         return self.c_rect.add()
- *     def sumVec(self, sv):
+ * 
  */
 
   /* function exit code */
@@ -1636,9 +1636,9 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_8add(struct __pyx_obj_4rect_
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":25
- *     def add(self):
+/* "rect/rect.pyx":26
  *         return self.c_rect.add()
+ * 
  *     def sumVec(self, sv):             # <<<<<<<<<<<<<<
  *         return self.c_rect.sumVec(sv)
  * 
@@ -1664,24 +1664,24 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_10sumVec(struct __pyx_obj_4r
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("sumVec", 0);
 
-  /* "rect/rect.pyx":26
- *         return self.c_rect.add()
+  /* "rect/rect.pyx":27
+ * 
  *     def sumVec(self, sv):
  *         return self.c_rect.sumVec(sv)             # <<<<<<<<<<<<<<
  * 
  *     # Attribute access
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __pyx_convert_vector_from_py_int(__pyx_v_sv); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 26, __pyx_L1_error)
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.sumVec(__pyx_t_1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 26, __pyx_L1_error)
+  __pyx_t_1 = __pyx_convert_vector_from_py_int(__pyx_v_sv); if (unlikely(PyErr_Occurred())) __PYX_ERR(1, 27, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.sumVec(__pyx_t_1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
   goto __pyx_L0;
 
-  /* "rect/rect.pyx":25
- *     def add(self):
+  /* "rect/rect.pyx":26
  *         return self.c_rect.add()
+ * 
  *     def sumVec(self, sv):             # <<<<<<<<<<<<<<
  *         return self.c_rect.sumVec(sv)
  * 
@@ -1698,7 +1698,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_10sumVec(struct __pyx_obj_4r
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":30
+/* "rect/rect.pyx":31
  *     # Attribute access
  *     @property
  *     def x0(self):             # <<<<<<<<<<<<<<
@@ -1725,7 +1725,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2x0___get__(struct __pyx_obj
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "rect/rect.pyx":31
+  /* "rect/rect.pyx":32
  *     @property
  *     def x0(self):
  *         return self.c_rect.x0             # <<<<<<<<<<<<<<
@@ -1733,13 +1733,13 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2x0___get__(struct __pyx_obj
  *     def x0(self, x0):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.x0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 31, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.x0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "rect/rect.pyx":30
+  /* "rect/rect.pyx":31
  *     # Attribute access
  *     @property
  *     def x0(self):             # <<<<<<<<<<<<<<
@@ -1758,7 +1758,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2x0___get__(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":33
+/* "rect/rect.pyx":34
  *         return self.c_rect.x0
  *     @x0.setter
  *     def x0(self, x0):             # <<<<<<<<<<<<<<
@@ -1785,17 +1785,17 @@ static int __pyx_pf_4rect_4rect_11PyRectangle_2x0_2__set__(struct __pyx_obj_4rec
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__set__", 0);
 
-  /* "rect/rect.pyx":34
+  /* "rect/rect.pyx":35
  *     @x0.setter
  *     def x0(self, x0):
  *         self.c_rect.x0 = x0             # <<<<<<<<<<<<<<
  * 
  *     # Attribute access
  */
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_x0); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 34, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_x0); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 35, __pyx_L1_error)
   __pyx_v_self->c_rect.x0 = __pyx_t_1;
 
-  /* "rect/rect.pyx":33
+  /* "rect/rect.pyx":34
  *         return self.c_rect.x0
  *     @x0.setter
  *     def x0(self, x0):             # <<<<<<<<<<<<<<
@@ -1814,7 +1814,7 @@ static int __pyx_pf_4rect_4rect_11PyRectangle_2x0_2__set__(struct __pyx_obj_4rec
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":38
+/* "rect/rect.pyx":39
  *     # Attribute access
  *     @property
  *     def x1(self):             # <<<<<<<<<<<<<<
@@ -1841,7 +1841,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2x1___get__(struct __pyx_obj
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "rect/rect.pyx":39
+  /* "rect/rect.pyx":40
  *     @property
  *     def x1(self):
  *         return self.c_rect.x1             # <<<<<<<<<<<<<<
@@ -1849,13 +1849,13 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2x1___get__(struct __pyx_obj
  *     def x1(self, x1):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.x1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 39, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.x1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 40, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "rect/rect.pyx":38
+  /* "rect/rect.pyx":39
  *     # Attribute access
  *     @property
  *     def x1(self):             # <<<<<<<<<<<<<<
@@ -1874,7 +1874,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2x1___get__(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":41
+/* "rect/rect.pyx":42
  *         return self.c_rect.x1
  *     @x1.setter
  *     def x1(self, x1):             # <<<<<<<<<<<<<<
@@ -1901,17 +1901,17 @@ static int __pyx_pf_4rect_4rect_11PyRectangle_2x1_2__set__(struct __pyx_obj_4rec
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__set__", 0);
 
-  /* "rect/rect.pyx":42
+  /* "rect/rect.pyx":43
  *     @x1.setter
  *     def x1(self, x1):
  *         self.c_rect.x1 = x1             # <<<<<<<<<<<<<<
  * 
  *     # Attribute access
  */
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_x1); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 42, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_x1); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 43, __pyx_L1_error)
   __pyx_v_self->c_rect.x1 = __pyx_t_1;
 
-  /* "rect/rect.pyx":41
+  /* "rect/rect.pyx":42
  *         return self.c_rect.x1
  *     @x1.setter
  *     def x1(self, x1):             # <<<<<<<<<<<<<<
@@ -1930,7 +1930,7 @@ static int __pyx_pf_4rect_4rect_11PyRectangle_2x1_2__set__(struct __pyx_obj_4rec
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":46
+/* "rect/rect.pyx":47
  *     # Attribute access
  *     @property
  *     def y0(self):             # <<<<<<<<<<<<<<
@@ -1957,7 +1957,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2y0___get__(struct __pyx_obj
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "rect/rect.pyx":47
+  /* "rect/rect.pyx":48
  *     @property
  *     def y0(self):
  *         return self.c_rect.y0             # <<<<<<<<<<<<<<
@@ -1965,13 +1965,13 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2y0___get__(struct __pyx_obj
  *     def y0(self, y0):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.y0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 47, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.y0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 48, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "rect/rect.pyx":46
+  /* "rect/rect.pyx":47
  *     # Attribute access
  *     @property
  *     def y0(self):             # <<<<<<<<<<<<<<
@@ -1990,7 +1990,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2y0___get__(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":49
+/* "rect/rect.pyx":50
  *         return self.c_rect.y0
  *     @y0.setter
  *     def y0(self, y0):             # <<<<<<<<<<<<<<
@@ -2017,17 +2017,17 @@ static int __pyx_pf_4rect_4rect_11PyRectangle_2y0_2__set__(struct __pyx_obj_4rec
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__set__", 0);
 
-  /* "rect/rect.pyx":50
+  /* "rect/rect.pyx":51
  *     @y0.setter
  *     def y0(self, y0):
  *         self.c_rect.y0 = y0             # <<<<<<<<<<<<<<
  * 
  *     # Attribute access
  */
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_y0); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 50, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_y0); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 51, __pyx_L1_error)
   __pyx_v_self->c_rect.y0 = __pyx_t_1;
 
-  /* "rect/rect.pyx":49
+  /* "rect/rect.pyx":50
  *         return self.c_rect.y0
  *     @y0.setter
  *     def y0(self, y0):             # <<<<<<<<<<<<<<
@@ -2046,7 +2046,7 @@ static int __pyx_pf_4rect_4rect_11PyRectangle_2y0_2__set__(struct __pyx_obj_4rec
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":54
+/* "rect/rect.pyx":55
  *     # Attribute access
  *     @property
  *     def y1(self):             # <<<<<<<<<<<<<<
@@ -2073,7 +2073,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2y1___get__(struct __pyx_obj
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "rect/rect.pyx":55
+  /* "rect/rect.pyx":56
  *     @property
  *     def y1(self):
  *         return self.c_rect.y1             # <<<<<<<<<<<<<<
@@ -2081,13 +2081,13 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2y1___get__(struct __pyx_obj
  *     def y1(self, y1):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.y1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 55, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->c_rect.y1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 56, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "rect/rect.pyx":54
+  /* "rect/rect.pyx":55
  *     # Attribute access
  *     @property
  *     def y1(self):             # <<<<<<<<<<<<<<
@@ -2106,7 +2106,7 @@ static PyObject *__pyx_pf_4rect_4rect_11PyRectangle_2y1___get__(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "rect/rect.pyx":57
+/* "rect/rect.pyx":58
  *         return self.c_rect.y1
  *     @y1.setter
  *     def y1(self, y1):             # <<<<<<<<<<<<<<
@@ -2132,15 +2132,15 @@ static int __pyx_pf_4rect_4rect_11PyRectangle_2y1_2__set__(struct __pyx_obj_4rec
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__set__", 0);
 
-  /* "rect/rect.pyx":58
+  /* "rect/rect.pyx":59
  *     @y1.setter
  *     def y1(self, y1):
  *         self.c_rect.y1 = y1             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_y1); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 58, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_As_int(__pyx_v_y1); if (unlikely((__pyx_t_1 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 59, __pyx_L1_error)
   __pyx_v_self->c_rect.y1 = __pyx_t_1;
 
-  /* "rect/rect.pyx":57
+  /* "rect/rect.pyx":58
  *         return self.c_rect.y1
  *     @y1.setter
  *     def y1(self, y1):             # <<<<<<<<<<<<<<
